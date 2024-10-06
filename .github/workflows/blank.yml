@@ -30,4 +30,6 @@ jobs:
         run: echo Hello, world!
         
       - name: Run ls
-        run: ls -laF
+        run: |
+          ls -laF
+          exit 1
